@@ -1,0 +1,13 @@
+{
+    "name": "Leave",
+    "alias": "leave",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Leave\\Providers\\LeaveServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

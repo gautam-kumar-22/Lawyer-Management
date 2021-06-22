@@ -1,0 +1,586 @@
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    line-height: 1.5;
+}
+.primary_select.mb-25,
+ .primary_input.mb-25 {
+    margin-bottom: 9px;
+}
+.primary_input_label {
+	margin-bottom: 3px;
+}
+.up_st_admin_visitor {
+    margin-top: 35px;
+}
+.header_iner {
+    margin: 0;
+    padding: 27px 0 26px 0;
+}
+/* .header_iner .header_right .header_notification_warp li > a i,
+.collaspe_icon.open_miniSide i,
+.nice_Select .current,
+.nice_Select::after,
+.serach_field-area .search_inner input,
+.serach_field-area .search_inner button i,
+.serach_field-area .search_inner input::placeholder {
+    color: #fff;
+} */
+/* .serach_field-area .search_inner input{
+    border-bottom: 1px solid #fff;
+} */
+#main-content{
+    position: relative;
+    padding-top: 0px;
+}
+#main-content::before{
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 0;
+    right: 0;
+    height: 95px;
+    z-index: -1;
+}
+/* .gradient-color2,
+.custom_nav li a.active,
+.custom_nav li a:hover,
+.about_list_tab .single_about_list p a{
+    
+} */
+/* .gradient-color2 {
+    background: transparent;
+	background: ;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
+} */
+/* .white-box.single-summery:hover,
+.accordion_custom .card .card-header h2 a{
+    background: ;
+    box-shadow: none;
+} */
+
+/* .white-box.single-summery:hover::before,
+.white-box.single-summery:hover::after{
+    display: none ;
+} */
+
+/* table  */
+/* table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child::before, table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child::before{
+    background: ;
+} */
+table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td:first-child::before, table.dataTable.dtr-inline.collapsed > tbody > tr.parent > th:first-child::before {
+    content: "\e622";
+    box-shadow: none;
+}
+.QA_section .QA_table .table thead th,
+.QA_section2 .QA_table .table thead th,
+.QA_section3 .QA_table .table thead th{
+    padding: 10.5px 30px;
+
+}
+.common_QA_section .QA_table .table thead th{
+    padding: 10.5px 30px 10.5px 45px;
+
+}
+
+table.dataTable thead .sorting::after,
+table.dataTable thead .sorting_asc::after,
+table.dataTable thead .sorting_desc::after{
+    top: 10px !important;
+}
+.QA_section .QA_table .table{
+    
+   
+}
+
+/* button ####### */
+.pos_tab_btn ul li a{
+    padding: 6px 21px;
+}
+
+.header_iner .header_right .header_notification_warp li > a > span.notification_count {
+	top: -6px;
+}
+
+.primary_file_uploader input {
+	font-size: 13px;
+    height: 40px;
+}
+
+
+
+.primary_textarea:focus,
+.primary_input_field:focus,
+.primary_file_uploader input:focus{
+    
+}
+.primary_file_uploader input::placeholder{
+   
+}
+.CRM_dropdown.dropdown .dropdown-toggle:hover, 
+.CRM_dropdown.dropdown .dropdown-toggle:focus{
+
+}
+.header_iner .header_right .header_notification_warp li > a > span.notification_count{
+    
+}
+/* calender  */
+.datepicker.dropdown-menu .datepicker-days table thead > tr th.datepicker-switch:hover,
+.datepicker.dropdown-menu .datepicker-days table thead > tr th.next:hover,
+.datepicker.dropdown-menu .datepicker-days table thead > tr th.prev:hover{
+    
+}
+
+/* check #### */
+.primary_checkbox .checkmark {
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	flex: 16px 0 0;
+}
+.primary_checkbox .checkmark::after {
+	width: 16px;
+	height: 16px;
+}
+.primary_checkbox input:checked ~ .checkmark::before {
+	top: 0px;
+	left: 3px;
+	font-size: 8px;
+	line-height: 16px;
+}
+.primary_checkbox input:checked ~ .checkmark::after{
+    transform: scale(1);
+}
+.primary_checkbox input:checked ~ .checkmark {
+}
+
+.primary_checkbox {
+    display: inline-block;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    flex: 16px 0 0;
+    line-height: 16px;
+}
+.QA_section .QA_table tbody th a, .QA_section .QA_table tbody td a,
+.QA_section2 .QA_table tbody th a, .QA_section2 .QA_table tbody td a,
+.QA_section3 .QA_table tbody th a, .QA_section3.QA_table tbody td a,
+.QA_section .QA_table tbody th, .QA_section .QA_table tbody td{
+    font-size: 13px;
+    font-weight: 400;
+}
+.QA_section .QA_table tbody th, .QA_section .QA_table tbody td,
+.QA_section2 .QA_table tbody th, .QA_section2 .QA_table tbody td,
+.QA_section3 .QA_table tbody th, .QA_section3 .QA_table tbody td{
+    font-size: 13px;
+}
+.QA_section .QA_table tbody th.priority_hight, .QA_section .QA_table tbody td.priority_hight,
+.QA_section2 .QA_table tbody th.priority_hight, .QA_section2 .QA_table tbody td.priority_hight,
+.QA_section3 .QA_table tbody th.priority_hight, .QA_section3 .QA_table tbody td.priority_hight{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.QA_section .QA_table th, .QA_section .QA_table td, 
+.QA_section2 .QA_table th, .QA_section2 .QA_table td,
+.QA_section3 .QA_table th, .QA_section3 .QA_table td,
+.common_QA_section .QA_table tbody th, .common_QA_section .QA_table tbody td {
+    padding: 0px 30px;
+    height: 40px;
+}
+
+
+.primary_datepicker_input .primary_input_field:focus,
+.primary_select:active, .primary_select.open, 
+.primary_select:focus, .primary_select:hover {
+}
+.primary_input .form-control:focus {
+    box-shadow: none ;
+}
+.pos_primary_select .primary_select {
+    border-right:  0 ;
+}
+.primary_search_field .Search_icon span{
+    border-right: 0;
+}
+.primary_input_coupon .input-group-append button {
+	font-size: 13px;
+	font-weight: 900;
+	border-left: 0;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	padding-right: 15px;
+}
+.primary_search_field .Search_icon {
+    background: transparent;
+    height: 40px;
+}
+.nice-select .list li:first-child,
+.nice-select .list li:first-child:hover{
+    
+}
+.product_number_count .count_single_item.input-number {
+	margin: 0 9px;
+	cursor: text;
+}
+.product_number_count .count_single_item{
+}
+.product_number_count .count_single_item:hover{
+   
+}
+.datepicker thead tr:first-child th::after {
+   
+}
+/* button ::strat  */
+
+.CRM_dropdown.dropdown .dropdown-toggle {
+    padding: 1px 24.1px 5px 15px;
+    height: 30px;
+}
+
+.gradient-bg, .school-table .dropdown .dropdown-toggle:hover, .school-table .dropdown .dropdown-toggle:focus, .bootstrap-datetimepicker-widget table td.hour:hover, .bootstrap-datetimepicker-widget table td.minute:hover, .bootstrap-datetimepicker-widget table td span.glyphicon-chevron-up:hover::after, .bootstrap-datetimepicker-widget table td span.glyphicon-chevron-down:hover::after, .datepicker table tr td.active.day, .datepicker table tr td.day:hover, .datepicker thead tr:first-child th:hover, .pagination .page-link:hover, .common-calendar .fc-month-view .fc-day.fc-widget-content.fc-today, .common-calendar .fc-state-default.fc-corner-left:hover, .common-calendar .fc-button.fc-state-default:hover, .primary-btn.white:hover, .nice-select.tr-bg:hover, .admin .navbar .right-navbar .dropdown .badge, .admin .navbar .right-navbar .dropdown .primary-btn, .student-activities .single-activity .title::before, .single-cms-box:hover .single-cms .overlay, .client .events-item:hover .card .card-body .date, .client.light .overview-area .nav-tabs .nav-link:hover, .client.light .overview-area .nav-tabs .nav-link.active, .client.color .overview-area .nav-tabs .nav-link:hover, .client.color .overview-area .nav-tabs .nav-link.active {
+	background: ;
+}
+
+/* data table customized  */
+
+.dataTables_paginate a {
+	
+}
+.primary_select .list .option:hover{
+   
+}
+.dataTables_paginate a.current,
+.dataTables_paginate a:hover{
+    
+    box-shadow: none ;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current
+ {
+	position: relative;
+	top: -1px;
+}
+.dataTables_filter > label::before{
+   
+}
+
+/* sidebar  */
+#sidebar ul li a {
+    border-left: 12px solid transparent;
+}
+#sidebar ul li a:hover, #sidebar ul li a.active, #sidebar ul li.mm-active > a {
+	/* border-left: 12px solid ;
+	border-image-source: linear-gradient(, );
+	border-image-slice: 12; */
+}
+#sidebar {
+}
+.sidebar #sidebar_menu li a {
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.sidebar #sidebar_menu li a {
+    padding: 10px 7px 10px 23px;
+}
+.sidebar #sidebar_menu li a:hover {
+}
+.sidebar #sidebar_menu li.mm-active > a{
+
+}
+.sidebar #sidebar_menu li.mm-active > a.has-arrow::after ,
+.sidebar #sidebar_menu li.mm-active > a.has-arrow:hover::after,
+.sidebar #sidebar_menu li a.has-arrow:hover::after{
+	
+}
+#sidebar ul li ul {
+    opacity: 1;
+}
+.sidebar #sidebar_menu li ul li a {
+    white-space: nowrap;
+    margin-left: 55px;
+}
+.sidebar #sidebar_menu li ul li a {
+	white-space: nowrap;
+	margin-left: 60px;
+    padding: 5.5px 7px 5.5px 0px;
+    border-left: 0 ;
+    border-radius: 5px;
+}
+.sidebar #sidebar_menu li ul li:not(:last-child) a{
+    margin-bottom: 5px;
+}
+.sidebar #sidebar_menu li ul li:last-child {
+   padding-bottom: 5px;
+}
+.sidebar #sidebar_menu li ul li:first-child {
+   padding-top: 5px;
+}
+.sidebar #sidebar_menu li ul li a.active {
+    padding: 5.5px 7px 5.5px 19px;
+}
+.sidebar #sidebar_menu li ul li a:hover {
+    padding: 5.5px 7px 5.5px 19px;
+}
+#sidebar .sidebar-header {
+    
+}
+.sidebar #sidebar_menu li a {
+    grid-template-columns: 17px auto ;
+}
+.sidebar #sidebar_menu li.mm-active > a .nav_icon_small{
+    
+}
+/*   */
+
+/* mini sidebar  */
+#sidebar.sidebar.mini_sidebar #sidebar_menu > li ul li a {
+    margin-left: 0;
+}
+#sidebar.sidebar.mini_sidebar #sidebar_menu > li.mm-active > a {
+   
+}
+#sidebar.sidebar.mini_sidebar #sidebar_menu > li ul li a {
+	
+}
+#sidebar.mini_sidebar ul li ul {
+   
+}
+#sidebar.sidebar.mini_sidebar #sidebar_menu > li ul li a.active {
+	
+}
+.sidebar.sidebar.mini_sidebar #sidebar_menu li ul li a:hover {
+	
+}
+#sidebar ul li a:hover, #sidebar ul li a.active, #sidebar ul li.mm-active > a {
+	border-left: 12px solid #7c32ff;
+	border-image-source: linear-gradient(#c738d8, #7c32ff);
+	border-image-slice: 12;
+}
+
+#sidebar.sidebar.mini_sidebar ul li a {
+	border-left: 6px solid transparent;
+}
+/* #main-content.mini_main_content {
+	margin-left: 60px;
+	width: calc(100% - 60px);
+} */
+#main-content.mini_main_content {
+	padding-top: 0;
+}
+#sidebar.sidebar.mini_sidebar #sidebar_menu > li > a {
+    padding-left: 18px;
+  }
+
+  .admin .sidebar_icon i {
+   
+}
+
+  @media (max-width: 1370px) {
+    #main-content.mini_main_content {
+      width: calc(100% - 60px);
+    }
+    #main-content.mini_main_content {
+        margin-left: 60px;
+        width: calc(100% - 60px);
+    }
+  }
+  @media (max-width: 768px){
+    #main-content::before {
+        height: 80px;
+    }
+  }
+  .primary_textarea{
+      border-radius: 10px;
+  }
+
+  .up_st_admin_visitor .dataTables_filter > label {
+	z-index: 1;
+    }
+    .nice_Select.open .list li:first-child {
+       
+    }
+    .QA_section .QA_table tbody th a:hover, .QA_section .QA_table tbody td a:hover {
+        
+    }
+
+    #sidebar.sidebar.mini_sidebar #sidebar_menu > li.mm-active ul li ul{
+        left: 0 !important;
+    }
+    #sidebar #sidebar_menu > li.mm-active ul li.mm-active a{
+        padding-left: 20px;
+    }
+
+    #sidebar #sidebar_menu > li.mm-active ul li.mm-active > a{
+        background: rgba(255, 255, 255, 0.05);
+        border-left: 6px solid #7c32ff;
+    }
+    #sidebar #sidebar_menu > li.mm-active ul li a.has-arrow::after{
+        color: #fff;
+    }
+    .green_input_label a{
+       
+    }
+    .nice_Select2 {
+        
+    }
+    .nice_Select2:focus{
+        
+    }
+    .nice_Select2:active,
+     .nice_Select2.open, 
+     .nice_Select2:focus,
+     .nice_Select2:hover {
+        
+    }
+    .nice_Select2.open .list li:first-child {
+        
+    }
+    .QA_section3 .QA_table tbody th a.active_hover, .QA_section3 .QA_table tbody td a.active_hover {
+        
+    }
+    .pagination_wrap .pagination_list ul li a.current,
+    .pagination_wrap .pagination_list ul li a:hover {
+    }
+    .pagination_wrap .pagination_list ul li a {
+        
+        
+    }
+    
+    button.dt-button:active:not(.disabled):hover:not(.disabled), button.dt-button.active:not(.disabled):hover:not(.disabled), div.dt-button:active:not(.disabled):hover:not(.disabled), div.dt-button.active:not(.disabled):hover:not(.disabled), a.dt-button:active:not(.disabled):hover:not(.disabled), a.dt-button.active:not(.disabled):hover:not(.disabled) {
+
+    }
+    button.dt-button:active:not(.disabled), button.dt-button.active:not(.disabled), div.dt-button:active:not(.disabled), div.dt-button.active:not(.disabled), a.dt-button:active:not(.disabled), a.dt-button.active:not(.disabled) {
+    }
+    #sidebar.sidebar.mini_sidebar ul li a:hover,
+    #sidebar.sidebar.mini_sidebar ul li a.active,
+     #sidebar.sidebar.mini_sidebar ul li.mm-active > a {
+        border-left: 6px solid #7c32ff;
+        border-image-source: linear-gradient(#c738d8, #7c32ff);
+       border-image-slice: 6;
+   }
+
+    #sidebar ul li a:hover, #sidebar ul li a.active, #sidebar ul li.mm-active > a {
+        border-left: 12px solid #7c32ff;
+        border-image-source: linear-gradient(#c738d8, #7c32ff);
+        border-image-slice: 12;
+    }
+
+    /* update  */
+
+.primary-btn.radius_30px {
+    padding: 5px 20px;
+}
+.primary_btn {
+    padding: 4px 18px;
+}
+.CRM_dropdown.dropdown .dropdown-toggle {
+    height: 26px;
+    padding-top: 0;
+}
+    /* input  */
+.primary_input_field {
+	font-size: 13px;
+	height: 36px;
+}
+
+.primary_input_field::placeholder{
+    
+}
+.primary_input_field:focus{
+    
+}
+.primary_input_label{
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.primary_select {
+	width: 100%;
+	height: 36px;
+	line-height: 36px;
+	font-size: 13px;
+	padding: 0px 25px;
+	padding-left: 20px;
+	font-weight: 300;
+	border-radius: 30px;
+}
+.primary_file_uploader input{
+}
+
+.primary_search_field input {
+	font-size: 13px;
+	height: 36px;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	border-left: 0;
+	border-right: 0;
+	width: 1%;
+}
+.plus_button {
+	align-items: center;
+	justify-content: center;
+	border-left: 0;
+	padding-right: 7px;
+	border-radius: 50%;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+    height: 36px;
+    transition: .3s;
+}
+.pos_primary_select:hover .plus_button,
+.pos_primary_select:focus .plus_button{
+}
+.primary-btn.primary-circle {
+	width: 26px;
+	height: 26px;
+	border-radius: 50% ;
+	padding: 0 ;
+	text-align: center;
+	line-height: 26px;
+	letter-spacing: 0 ;
+}
+.primary-btn.semi_large2 {
+	line-height: 40px !important;
+}
+.primary_search_field .Search_icon {
+	background: transparent;
+	height: 36px;
+}
+.primary_file_uploader button {
+	top: 7px;
+}
+.primary-btn.small {
+	line-height: 26px;
+}
+.badge_1,.badge_2 {
+	height: 26px;
+	padding: 0px 18px;
+	line-height: 26px;
+}
+.pos_tab_btn ul li a {
+	padding: 4px 18px;
+}
+.primary_file_uploader input {
+	font-size: 13px;
+	height: 36px;
+}
+.primary_file_uploader button {
+	top: 5px;
+}
+.product_number_count .count_single_item {
+	width: 26px;
+	height: 26px;
+    line-height: 26px;
+}
+.primary_select::after {
+	top: 13%;
+}
+
+table.dataTable thead .sorting {
+	vertical-align: middle !important;
+}
+.primary_btn_large {
+	padding: 12px 23px;
+}

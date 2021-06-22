@@ -1,0 +1,94 @@
+.login-height {
+    margin: 0 !important;
+}
+
+.login-area .form-wrap {
+    background: rgba(28, 0, 78, 0.25);
+    padding: 50px 70px;
+}
+
+.logoimage {
+    max-width: 150px !important;
+    height: auto;
+    padding: 2px;
+}
+
+.loginButton {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.singleLoginButton {
+    flex: 22% 0 0;
+}
+
+.loginButton .get-login-access {
+    display: block;
+    width: 100%;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+html {
+    height: 100% !important;
+}
+
+.login-area h5 {
+    margin-top: 40px;
+    margin-bottom: 25px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.login-area .form-wrap {
+    background: rgba(28, 0, 78, 0.25);
+    padding: 15px 70px;
+}
+
+.get-login-access {
+    margin: 5px;
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+}
+
+.loginForm {
+    margin: 5px;
+    text-align: center;
+    display: block;
+}
+
+.login-area .form-wrap {
+    background: rgba(28, 0, 78, 0.25);
+    padding: 25px 70px;
+}
+
+.form-group.input-group.mb-4.p-3 {
+    padding: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+p {
+    color: #ffffff82;
+    ;
+}
+
+@media (max-width: 991px) {
+    .up_login .pl-30 {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .singleLoginButton {
+        flex: 49% 0 0;
+    }
+    .singleLoginButton {
+        flex: 49% 0 0;
+    }
+}

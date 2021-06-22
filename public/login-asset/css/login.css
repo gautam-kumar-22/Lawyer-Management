@@ -1,0 +1,20 @@
+.buttonCSS {
+    float: left;
+    margin-right: 5px;
+    width: 45%;
+}
+
+.buttonCSS button.login-res-btn {
+    margin: 5px !important;
+    padding: 5px;
+    width: 100%;
+}
+
+.super_admin_btn {
+    background: #2a53a2 !important;
+}
+
+.email_input {
+    position: relative;
+    top: -20px;
+}

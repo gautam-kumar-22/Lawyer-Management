@@ -1,0 +1,13 @@
+{
+    "name": "Todo",
+    "alias": "todo",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Todo\\Providers\\TodoServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

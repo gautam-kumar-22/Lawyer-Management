@@ -1,0 +1,97 @@
+body {
+    background-color: #F6F8FA;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #072A5B;
+}
+.sidebar {
+    background-color: #072A5B;
+}
+.main_content {
+    background-color: #F6F8FA;
+}
+.admin_profile_Wrap ul li {
+    background: transparent;
+    border-top: 1px solid rgba(255, 255, 255,.3);
+    border-bottom: 1px solid rgba(255, 255, 255,.3);
+}
+.sidebar #sidebar_menu li.mm-active.metis_dropmenu {
+    border-top: 1px solid rgba(255, 255, 255,.3);
+    border-bottom: 1px solid rgba(255, 255, 255,.3);
+}
+.sidebar #sidebar_menu li ul li a:hover {
+    background: transparent !important;
+}
+/* sidebar  */
+.sidebar #sidebar_menu li a i {
+	color: #BBBEC4;
+}
+.sidebar #sidebar_menu li a,.sidebar #sidebar_menu li ul li a  {
+    color: #BBBEC4;
+}
+.sidebar #sidebar_menu li a::before {
+    background: #fff;
+}
+.admin_profile_Wrap ul li a .admin_profile_inner .welcome_rext h5,
+.admin_profile_Wrap ul li a .admin_profile_inner .welcome_rext span,
+.sidebar #sidebar_menu li a:hover i,
+.metismenu .has-arrow::after,
+.admin_profile_Wrap ul li ul li a,
+.sidebar #sidebar_menu li.mm-active > a i,
+.sidebar #sidebar_menu li.mm-active.metis_dropmenu > a   {
+    color: #fff;
+}
+.mm-active ul li {
+	background: transparent !important;
+}
+.sidebar #sidebar_menu li a::before {
+    display: none !important;
+}
+/* btn  */
+.sidebar #sidebar_menu li:hover > a,
+.sidebar #sidebar_menu li.mm-active > a {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.06) !important;
+}
+
+.sidebar #sidebar_menu li.mm-active.metis_dropmenu {
+	background-color: rgba(255, 255, 255, 0.06) !important;
+}
+.sidebar #sidebar_menu li ul li:first-child a{
+    padding-top: 20px;
+}
+
+/* title  */
+.header_iner .page_tittle h3,.lms_category_wrap .category_header .category_left h4 {
+    color: #072A5B;
+}
+/* modal  */
+.cs_modal .modal-content {
+    background-color: #F6F8FA;
+}
+.single_element .single_quick_activity .quick_activity_icon i {
+    color: #fff;
+}
+.single_element .single_quick_activity .quick_activity_icon {
+    background-color: #fe1724;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.07);
+}
+.single_element .single_quick_activity {
+   background: #fff;
+}
+.single_element .single_quick_activity:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.07);
+    background: #fff;
+}
+.single_element .single_quick_activity:hover h3, .single_element .single_quick_activity:hover p {
+    color: #072A5B;
+}
+.single_element .single_quick_activity:hover h3, .single_element .single_quick_activity:hover p {
+    color: #072A5B;
+}
+.single_element .single_quick_activity:hover .quick_activity_icon {
+    background-color: #fe1724;
+}
+.QA_section .QA_table .table thead th {
+    background-color: #F6F8FA;
+}

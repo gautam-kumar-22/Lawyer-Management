@@ -1,0 +1,10 @@
+{
+    "Setting": true,
+    "Attendance": true,
+    "Payroll": true,
+    "Leave": true,
+    "RolePermission": true,
+    "Task": true,
+    "Todo": true,
+    "Localization": true
+}
